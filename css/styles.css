@@ -1,32 +1,17 @@
-@font-face {
-    font-family: 'source_sans_proregular';
-    src: url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
-         url('fonts/sourcesanspro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 #headerstyle {
-  font-family:'source_sans_proregular';sans-serif;
+  font-family:'source_sans_proregular',sans-serif;
   font-weight: normal;
   font-style: normal;
+  text-align:center;
 }
 
 
-
-/*not using for now */
-#navtest {
-  font-family: 'Dihjauti';
-  font-weight: 700;
-
-}
-
-/* Finally got the menu centered, and the hover highlight to work as I wish */
 #navbar-container {
   float: left;
   width: 100%;
   position: relative;
-  border: 2px solid rgb(204, 40, 40);
+  border: none;
 }
 #main-navbar {
   background-color: lightskyblue;
@@ -37,6 +22,8 @@
 #main-navbar ul {
   list-style-type: none;
   position: relative;
+  margin: 0;
+  padding: 0;
   left: 50%;
   float: left;
   font-family: Calibri, sans-serif;
@@ -46,17 +33,17 @@
   float: left;
   position: relative;
   right: 50%;
-  display: block;
-  border: none;
-  padding: 10px;
+  
+
 }
 
 #main-navbar ul li a {
   display: block;
-  
   color :black;
   text-decoration:none;
   font: Calibri,sans-serif;
+  padding: 10px;
+  display: block;
 }
 
 #main-navbar ul li a:hover {
@@ -64,3 +51,14 @@
 }
 /*End Navbar related CSS section */
 
+/*Begin styles for main body */
+
+#contactinfo {
+  font-family: 'source_sans_proregular'; sans-serif;
+
+}
+p{
+  font-family: 'source_sans_proregular';
+  font-weight:500;
+
+}
