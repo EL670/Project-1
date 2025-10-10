@@ -1,4 +1,13 @@
 @font-face {
   font-family: 'Dihjauti';
-  src: url ('fonts/Dihjauti-Regular.woff')
+  src: url ('fonts/Dihjauti-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Dihjauti';
+  src: url ('fonts/Dihjauti-Bold.woff') format('woff');
+}
+
+@font-face {
+  src: url ('fonts/SourcesansPro-regular') format ('otf');
 }
