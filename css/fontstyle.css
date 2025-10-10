@@ -9,5 +9,10 @@
 }
 
 @font-face {
-  src: url ('fonts/SourcesansPro-regular') format ('otf');
+    font-family: 'source_sans_proregular';
+    src: url('sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

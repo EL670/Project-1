@@ -1,7 +1,18 @@
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-#headerstyle{
-  font-family: 'SourceSansPro-Regular'; sans-serif;
 }
+#headerstyle {
+  font-family:'source_sans_proregular';sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 /*not using for now */
 #navtest {
