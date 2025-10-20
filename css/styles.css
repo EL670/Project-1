@@ -1,13 +1,15 @@
-
+/* Consistent header style and center Navigation for all pages */
 #headerstyle {
   font-family:'source_sans_proregular',sans-serif;
   font-weight: normal;
   font-style: normal;
   text-align:center;
+  padding: 20px;
   background: linear-gradient(to bottom, rgb(47, 147, 180), rgb(224, 208, 118))
+  
 }
 
-/*Section for formatting Navigation bar and links to other pages */
+/*Section for formatting Navigation bar and links to other pages. Same across all pages */
 #navbar-container {
   float: left;
   width: 100%;
@@ -48,13 +50,14 @@
 #main-navbar ul li a:hover {
   background-color: lightgrey;
 }
-/*End Navbar related CSS section */
+/*End CSS for Navigation bar */
 
-/*Begin styles for main body */
+/*Begin styles for main body Resume */
 
 #contactinfo {
   font-family: 'source_sans_proregular', sans-serif;
 }
+
 p{
   font-family: 'source_sans_proregular';
   font-weight:500;
@@ -74,5 +77,30 @@ p{
   width: 60px;
   height: 60px;
   padding: 0px;
+}
+
+/*End CSS styles for resume */
+
+/*Styles for index.html page */
+
+/*Try something from Stackoverflow */
+html, body {
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+.index_background{
+  font-family: 'source_sans_proregular';
+  color: darkslategrey;
+  background: #f6f7f2;
+  background: linear-gradient(135deg, rgba(246, 247, 242, 0.99) 0%, rgba(87, 199, 133, 1) 50%, rgba(242, 236, 228, 1) 100%);
+  min-height: 100%;
+}
+.footer {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:lightgray;
+  height: 100px;
+  padding: 20px;
+  text-align:center;
 }
 
