@@ -54,10 +54,23 @@
 
 #contactinfo {
   font-family: 'source_sans_proregular', sans-serif;
-
 }
 p{
   font-family: 'source_sans_proregular';
   font-weight:500;
+}
 
+#Experience {
+  font-family: 'source_sans_proregular';
+  color:darkslategray;
+} 
+
+
+#Education {
+  font-family: 'source_sans_proregular';
+  color: darkslateblue;
+}
+.smallImage{
+  width: 40px;
+  height: 40px;
 }
