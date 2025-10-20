@@ -83,12 +83,12 @@ p{
 
 /*Styles for index.html page */
 
-/*Try something from Stackoverflow */
+/*Try something from Stackoverflow to ensure page is covered */
 html, body {
   height: 100%;
   margin-bottom: 0px;
 }
-
+/*put in special background for index page */
 .index_background{
   font-family: 'source_sans_proregular';
   color: darkslategrey;
