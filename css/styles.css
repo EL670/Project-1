@@ -15,7 +15,7 @@
   width: 100%;
   position: relative;
   border: none;
-}
+ }
 #main-navbar {
   background-color: lightskyblue;
   overflow: hidden;
@@ -36,6 +36,7 @@
   float: left;
   position: relative;
   right: 50%;
+  
 }
 
 #main-navbar ul li a {
@@ -90,13 +91,14 @@ html, body {
 }
 /*put in special background for index page */
 .index_background{
-  font-family: 'source_sans_proregular';
   color: darkslategrey;
   background: #f6f7f2;
   background: linear-gradient(135deg, rgba(246, 247, 242, 0.99) 0%, rgba(87, 199, 133, 1) 50%, rgba(242, 236, 228, 1) 100%);
   min-height: 100%;
   margin: 0px;
 }
+
+/*put in format and style for footer */
 .footer {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color:lightgray;
@@ -105,3 +107,45 @@ html, body {
   text-align:center;
 }
 
+/*Close white space above h2 */
+h2#top_line {
+  margin-top: 0px;
+}
+
+/*provide option to underline for Resume page */
+h2#under_line {
+  text-decoration: underline;
+  margin-top: 0px;
+}
+/*Background for Resume page */
+
+.resume_background {
+  background: lightyellow;
+}
+main {
+  margin: 0px;
+}
+/* Styles for Page 3 */
+q {
+  font-style:italic;
+  text-shadow: 3px 3px 5px grey;
+  text-indent: 3em;
+}
+.p3_background {
+  background: lightpink;
+}
+
+h1#p3{
+  font-family: 'source_sans_proregular';
+  margin: 0px;
+  font-size: 2.5em;
+  text-align: left;
+  text-indent: 10%;
+}
+img#p3{
+  float:left;
+}
+
+iframe#p3video{
+  float:right;
+}
