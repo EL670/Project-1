@@ -1,3 +1,9 @@
+
+/*global removal of white space */
+*{
+  margin: 0px;
+  padding: 0;
+ }
 /* Consistent header style and center Navigation for all pages */
 #headerstyle {
   font-family:'source_sans_proregular',sans-serif;
@@ -15,11 +21,13 @@
   width: 100%;
   position: relative;
   border: none;
- }
+  
+  }
 #main-navbar {
   background-color: lightskyblue;
   overflow: hidden;
   padding: 0 px;
+ 
 }
 
 #main-navbar ul {
@@ -80,6 +88,24 @@ p{
   padding: 0px;
 }
 
+/*provide option to underlining heading h2 for Resume page */
+h2#under_line {
+  text-decoration: underline;
+  
+}
+/*Background for Resume page */
+
+.resume_background {
+  background: lightyellow;
+  padding: 20 px;
+  margin-top: 0px;
+}
+main {
+  margin-top: 0px;
+}
+/* NEED TO FIX FOOTER */
+
+
 /*End CSS styles for resume */
 
 /*Styles for index.html page */
@@ -87,9 +113,9 @@ p{
 /*Try something from Stackoverflow to ensure page is covered */
 html, body {
   height: 100%;
-  margin-bottom: 0px;
+  margin: 0px;
 }
-/*put in special background for index page */
+/*put in special background for index page . Source: cssgradient.io */
 .index_background{
   color: darkslategrey;
   background: #f6f7f2;
@@ -112,19 +138,7 @@ h2#top_line {
   margin-top: 0px;
 }
 
-/*provide option to underline for Resume page */
-h2#under_line {
-  text-decoration: underline;
-  margin-top: 0px;
-}
-/*Background for Resume page */
 
-.resume_background {
-  background: lightyellow;
-}
-main {
-  margin: 0px;
-}
 /* Styles for Page 3 */
 q {
   font-style:italic;
