@@ -1,9 +1,6 @@
 
 /*global removal of white space */
-*{
-  margin: 0px;
-  padding: 0;
- }
+
 /* Consistent header style and center Navigation for all pages */
 #headerstyle {
   font-family:'source_sans_proregular',sans-serif;
@@ -12,8 +9,7 @@
   text-align:center;
   padding: 20px;
   background: linear-gradient(to bottom, rgb(47, 147, 180), rgb(224, 208, 118))
-  
-}
+  }
 
 /*Section for formatting Navigation bar and links to other pages. Same across all pages */
 #navbar-container {
@@ -21,7 +17,7 @@
   width: 100%;
   position: relative;
   border: none;
-  
+  margin-bottom: 0px;
   }
 #main-navbar {
   background-color: lightskyblue;
@@ -89,8 +85,10 @@ p{
 }
 
 /*provide option to underlining heading h2 for Resume page */
+/*set margin-top to 0px to allow background color to "meet" navbar */
 h2#under_line {
   text-decoration: underline;
+  margin-top: 0px;
   
 }
 /*Background for Resume page */
@@ -100,21 +98,15 @@ h2#under_line {
   padding: 20 px;
   margin-top: 0px;
 }
-main {
-  margin-top: 0px;
-}
+
 /* NEED TO FIX FOOTER */
 
 
 /*End CSS styles for resume */
 
 /*Styles for index.html page */
-
 /*Try something from Stackoverflow to ensure page is covered */
-html, body {
-  height: 100%;
-  margin: 0px;
-}
+
 /*put in special background for index page . Source: cssgradient.io */
 .index_background{
   color: darkslategrey;
@@ -125,7 +117,7 @@ html, body {
 }
 
 /*put in format and style for footer */
-.footer {
+footer {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color:lightgray;
   height: 100px;
@@ -140,26 +132,42 @@ h2#top_line {
 
 
 /* Styles for Page 3 */
-q {
+q{
   font-style:italic;
   text-shadow: 3px 3px 5px grey;
   text-indent: 3em;
 }
 .p3_background {
   background: lightpink;
+  display: flex;
+  flex-direction: column;
 }
 
-h1#p3{
+h1#p3_h1{
   font-family: 'source_sans_proregular';
   margin: 0px;
   font-size: 2.5em;
   text-align: left;
   text-indent: 10%;
 }
-img#p3{
-  float:left;
+img#p3_img{
+  float:inline-start;
 }
 
 iframe#p3video{
   float:right;
+}
+footer#p3footer {
+  background-color: rgb(42, 113, 185);
+  text-align: left;
+  color:whitesmoke;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+main#p3_main {
+  height: 100%;
+  margin: 0px;
+  
 }
