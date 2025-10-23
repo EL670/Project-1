@@ -61,6 +61,7 @@
 
 #contactinfo {
   font-family: 'source_sans_proregular', sans-serif;
+  margin-bottom: 1rem;
 }
 
 p{
@@ -135,27 +136,34 @@ h2#top_line {
 q{
   font-style:italic;
   text-shadow: 3px 3px 5px grey;
-  text-indent: 3em;
+  text-indent: 3rem;
+  padding: 2rem;
+  margin-left: 1rem;
+  font-size: 125%;
 }
-.p3_background {
+.p3_body {
   background: lightpink;
   display: flex;
   flex-direction: column;
+ 
 }
 
 h1#p3_h1{
   font-family: 'source_sans_proregular';
-  margin: 0px;
+  margin-top: 0;
+  margin-bottom:0;
   font-size: 2.5em;
   text-align: left;
   text-indent: 10%;
 }
 img#p3_img{
   float:inline-start;
+  margin-right: 1rem;
 }
 
 iframe#p3video{
   float:right;
+  margin-left: 1rem;
 }
 footer#p3footer {
   background-color: rgb(42, 113, 185);
@@ -169,5 +177,5 @@ footer#p3footer {
 main#p3_main {
   height: 100%;
   margin: 0px;
-  
 }
+
