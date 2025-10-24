@@ -83,6 +83,10 @@
   padding:2px;
 }
 
+#main_index a:hover{
+  background-color: orange;
+}
+
 #main_index h3{
   font-family: 'Dihjauti';
   color: darkorchid;
