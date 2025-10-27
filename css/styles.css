@@ -171,13 +171,13 @@ q{
   font-size: 125%; 
  
 }
-.p3_body {
+#p3_body {
   background: lightpink;
   display: flex;
   flex-direction: column;
  }
 
-h1#p3_h1{
+#p3_body h1{
   font-family: 'source_sans_proregular';
   margin-top: 0;
   margin-bottom:0;
@@ -185,17 +185,17 @@ h1#p3_h1{
   text-align: left;
   text-indent: 10%;
 }
-img#p3_img{
+#p3_body img{
   float:inline-start;
   margin-right: 1rem;
 }
 
-iframe#p3video{
+#pbody iframe{
   float:right;
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-footer#p3footer {
+#p3_footer {
   background-color: rgb(42, 113, 185);
   text-align: left;
   color:whitesmoke;
