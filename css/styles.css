@@ -126,6 +126,11 @@ p{
   color:darkslategray;
 } 
 
+#Experience h2{
+  text-decoration: underline;
+  margin-top: 0px;
+}
+
 
 #Education {
   font-family: 'source_sans_proregular';
