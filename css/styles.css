@@ -111,6 +111,12 @@ footer {
   margin-bottom: 1rem;
 }
 
+#contactinfo h2{
+  text-decoration: underline;
+  margin-top: 0px;  
+}
+
+}
 p{
   font-family: 'source_sans_proregular';
   font-weight:500;
@@ -133,11 +139,7 @@ p{
 }
 
 /*set margin-top to 0px to allow background color to "meet" navbar */
-h2#under_line {
-  text-decoration: underline;
-  margin-top: 0px;
-  
-}
+
 
 /*Close white space above h2 DO I USE THIS? */
 h2#top_line {
